@@ -20,7 +20,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             MySideEffectAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    LaunchedEffectScreen(modifier = Modifier.padding(innerPadding))
+                  //  LaunchedEffectScreen(modifier = Modifier.padding(innerPadding))
+                    SideEffectScreen(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
